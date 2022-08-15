@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url(./nullstyle.css);
+
+:root {
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--hover-text-color: #2196F3;
+	--header-logo-color: #000000;
+	--footer-logo-color: #FFFFFF;
+	--hero-text-color: #FFFFFF;
+	--footer-map-address-color: #FFFFFF;
+	--footer-address-color: rgba(255, 255, 255, 0.6);
+	--filter-hover-text-btn-color: #FFFFFF;
+
+	--header-bg-color: #FFFFFF;
+	--benefits-example-bg-color: #FFFFFF;
+	--hero-bg-color: #2F303A;
+	--hero-bg-hover-btn-color: #188CE8;
+	--team-bg-color: #F5F4FA;
+	--footer-bg-color: #2F303A;
+	--portfolio-bg-color: #FFFFFF;
+	--filter-btn-bg-color: #F5F4FA;
+	--filter-hover-btn-bg-color: #2196F3;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: var(--primary-text-color);
+}
+
+
+/* .................................HEADER................................ */
+.header {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	background-color: var(--header-bg-color);
+}
+
+.header__nav {}
+
+.logo__link {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--header-logo-color);
+}
+.logo__link span {
+	color: var(--hover-text-color);
+}
+
+.nav__list {
+	
+}
+
+.nav__item {}
+
+.nav__link {
+	color: var(--primary-text-color);
+}
+.nav__link:hover,
+.nav__link:focus {
+	color: var(--hover-text-color);
+}
+
+.header__list {
+	
+}
+
+.header__item {}
+
+.header__link {
+	color: var(--secondary-text-color);
+}
+.header__link:hover,
+.header__link:focus {
+	color: var(--hover-text-color);
+}
+/* .................................END HEADER................................ */
+
+
+/* ...................................FOOTER.................................. */
+.footer {
+	background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+	color: var(--footer-logo-color);
+}
+
+.footer__address {}
+
+.footer__list {
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.footer__item {}
+
+.footer__map-address {
+	color: var(--footer-map-address-color);
+}
+.footer__map-address:hover,
+.footer__map-address:focus {
+	color: var(--hover-text-color);
+}
+
+.footer__link {
+	color: var(--footer-address-color);
+}
+.footer__link:hover,
+.footer__link:focus {
+	color: var(--hover-text-color);
+}
+/* .................................END FOOTER................................ */
+
+
+/* ...............................INDEX.HTML............................... */
+.main__content {}
+
+.main__hero {
+	background-color: var(--hero-bg-color);
+	text-align: center;
+}
+
+.hero__title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--hero-text-color);
+}
+
+.hero__btn {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.06em;
+	color: var(--hero-text-color);
+	background-color: var(--hover-text-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+.hero__btn:hover,
+.hero__btn:focus {
+	background-color: var(--hero-bg-hover-btn-color);
+}
+
+.main__benefits {
+	background-color: var(--benefits-example-bg-color);
+}
+
+.benefits__title {}
+
+.benefits__list {
+	letter-spacing: 0.03em;
+}
+
+.benefits__item {}
+
+.benefits__name {
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+}
+
+.benefits__discrpt {
+	line-height: 1.71;
+	color: var(--secondary-text-color);
+}
+
+.main__example {
+	background-color: var(--benefits-example-bg-color);
+}
+
+.example__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+
+.example__list {}
+
+.example__item {}
+
+.example__img {}
+
+.main__team {
+	background-color: var(--team-bg-color);
+	letter-spacing: 0.03em;
+}
+
+.team__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	color: var(--primary-text-color);
+}
+
+.team__list {}
+
+.team__item {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.1875;
+}
+
+.team__img {}
+
+.team__name {
+	font-weight: 500;
+	color: var(--primary-text-color);
+}
+
+.team__position {
+	color: var(--secondary-text-color);
+}
+/* ...............................END INDEX.HTML.............................. */
+
+
+/* ...............................PORTFOLIO.HTML.............................. */
+.portfolio__content {}
+
+.portfolio__section {
+	background-color: var(--portfolio-bg-color);
+}
+
+.portfolio__title {}
+
+.portfolio__filter {}
+
+.filter__item {}
+
+.filter__button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+	background-color: var(--filter-btn-bg-color);
+	border-radius: 4px;
+}
+.filter__button:hover,
+.filter__button:focus {
+	color: var(--filter-hover-text-btn-color);
+	background-color: var(--filter-hover-btn-bg-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio__list {}
+
+.portfolio__item {
+	border: 1px solid #EEEEEE;
+}
+
+.portfolio__link {}
+
+.portfolio__img {}
+
+.portfolio__name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--primary-text-color);
+}
+
+.portfolio__discrpt {
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
+/* ...............................END PORTFOLIO.HTML.......................... */
