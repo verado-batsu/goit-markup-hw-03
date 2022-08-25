@@ -169,7 +169,7 @@ body {
 	color: var(--primary-text-color);
 }
 
-.benefits__discrpt {
+.benefits__descrpt {
 	line-height: 1.71;
 	color: var(--secondary-text-color);
 }
@@ -275,7 +275,7 @@ body {
 	color: var(--primary-text-color);
 }
 
-.portfolio__discrpt {
+.portfolio__descrpt {
 	font-size: 16px;
 	line-height: 1.875;
 	letter-spacing: 0.03em;
