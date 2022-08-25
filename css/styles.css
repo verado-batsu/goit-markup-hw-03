@@ -260,7 +260,7 @@ body {
 .portfolio__list {}
 
 .portfolio__item {
-	border: 1px solid #EEEEEE;
+	/* border: 1px solid #EEEEEE; */
 }
 
 .portfolio__link {}
