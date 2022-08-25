@@ -8,8 +8,7 @@
 	--primary-text-color: #212121;
 	--secondary-text-color: #757575;
 	--hover-text-color: #2196F3;
-	--header-logo-color: #000000;
-	--footer-logo-color: #FFFFFF;
+	--header-logo-color: #2196F3;
 	--hero-text-color: #FFFFFF;
 	--footer-map-address-color: #FFFFFF;
 	--footer-address-color: rgba(255, 255, 255, 0.6);
@@ -31,6 +30,12 @@ body {
 	color: var(--primary-text-color);
 }
 
+.black span {
+	color: #000000;
+}
+.white span {
+	color: #FFFFFF;
+}
 
 /* .................................HEADER................................ */
 .header {
@@ -49,9 +54,6 @@ body {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--header-logo-color);
-}
-.logo__link span {
-	color: var(--hover-text-color);
 }
 
 .nav__list {
@@ -87,10 +89,6 @@ body {
 /* ...................................FOOTER.................................. */
 .footer {
 	background-color: var(--footer-bg-color);
-}
-
-.footer-logo {
-	color: var(--footer-logo-color);
 }
 
 .footer__address {}
