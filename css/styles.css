@@ -91,7 +91,9 @@ body {
 	background-color: var(--footer-bg-color);
 }
 
-.footer__address {}
+.footer__address {
+	font-style: normal;
+}
 
 .footer__list {
 	line-height: 1.71;
