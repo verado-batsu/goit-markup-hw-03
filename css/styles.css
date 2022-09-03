@@ -7,23 +7,15 @@
 :root {
 	--primary-text-color: #212121;
 	--secondary-text-color: #757575;
-	--hover-text-color: #2196f3;
-	--header-logo-color: #2196f3;
-	--hero-text-color: #ffffff;
-	--footer-map-address-color: #ffffff;
+	--tertiary-text-color: #ffffff;
+	--accent-color: #2196f3;
 	--footer-address-color: rgba(255, 255, 255, 0.6);
-	--filter-hover-text-btn-color: #ffffff;
 
-	--header-bg-color: #ffffff;
-	--benefits-example-bg-color: #ffffff;
-	--hero-bg-color: #2f303a;
-	--hero-bg-hover-btn-color: #188ce8;
-	--team-bg-color: #f5f4fa;
-	--team-item-bg-color: #ffffff;
-	--footer-bg-color: #2f303a;
-	--portfolio-bg-color: #ffffff;
-	--filter-btn-bg-color: #f5f4fa;
-	--filter-hover-btn-bg-color: #2196f3;
+	--primary-bg-color: #ffffff;
+	--secondary-bg-color: #2f303a;
+	--tertiary-bg-color: #f5f4fa;
+	
+	--hero-btn-accent-color: #188ce8;
 }
 
 body {
@@ -43,7 +35,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  background-color: var(--header-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .header-nav {
@@ -55,7 +47,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--header-logo-color);
+  color: var(--accent-color);
 }
 
 .nav-list {
@@ -69,7 +61,7 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--hover-text-color);
+  color: var(--accent-color);
 }
 
 .header-list {
@@ -83,13 +75,13 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--hover-text-color);
+  color: var(--accent-color);
 }
 /* .................................END HEADER................................ */
 
 /* ...................................FOOTER.................................. */
 .footer {
-  background-color: var(--footer-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 
 .footer-address {
@@ -105,11 +97,11 @@ body {
 }
 
 .footer-map-address {
-  color: var(--footer-map-address-color);
+  color: var(--tertiary-text-color);
 }
 .footer-map-address:hover,
 .footer-map-address:focus {
-  color: var(--hover-text-color);
+  color: var(--accent-color);
 }
 
 .footer-link {
@@ -117,7 +109,7 @@ body {
 }
 .footer-link:hover,
 .footer-link:focus {
-  color: var(--hover-text-color);
+  color: var(--accent-color);
 }
 /* .................................END FOOTER................................ */
 
@@ -126,7 +118,7 @@ body {
 }
 
 .main-hero {
-  background-color: var(--hero-bg-color);
+  background-color: var(--secondary-bg-color);
   text-align: center;
 }
 
@@ -136,7 +128,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--hero-text-color);
+  color: var(--tertiary-text-color);
 }
 
 .hero-btn {
@@ -144,18 +136,18 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: var(--hero-text-color);
-  background-color: var(--hover-text-color);
+  color: var(--tertiary-text-color);
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--hero-bg-hover-btn-color);
+  background-color: var(--hero-btn-accent-color);
 }
 
 .main-benefits {
-  background-color: var(--benefits-example-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .benefits-title {
@@ -181,7 +173,7 @@ body {
 }
 
 .main-example {
-  background-color: var(--benefits-example-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .example-title {
@@ -203,7 +195,7 @@ body {
 }
 
 .main-team {
-  background-color: var(--team-bg-color);
+  background-color: var(--tertiary-bg-color);
   letter-spacing: 0.03em;
 }
 
@@ -222,7 +214,7 @@ body {
   text-align: center;
   font-size: 16px;
   line-height: 1.1875;
-  background-color: var(--team-item-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .team-img {
@@ -243,7 +235,7 @@ body {
 }
 
 .portfolio-section {
-  background-color: var(--portfolio-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .portfolio-title {
@@ -262,13 +254,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--filter-btn-bg-color);
+  background-color: var(--tertiary-bg-color);
   border-radius: 4px;
 }
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--filter-hover-text-btn-color);
-  background-color: var(--filter-hover-btn-bg-color);
+  color: var(--tertiary-text-color);
+  background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
