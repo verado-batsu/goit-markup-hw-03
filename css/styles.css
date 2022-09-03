@@ -30,6 +30,15 @@ body {
   color: #ffffff;
 }
 
+.link:hover,
+.link:focus {
+	color: var(--accent-color);
+}
+
+.link.current {
+	color: var(--accent-color);
+}
+
 /* .................................HEADER................................ */
 .header {
   font-weight: 500;
@@ -59,10 +68,7 @@ body {
 .nav-link {
   color: var(--primary-text-color);
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
-}
+
 
 .header-list {
 }
@@ -73,10 +79,7 @@ body {
 .header-link {
   color: var(--secondary-text-color);
 }
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
-}
+
 /* .................................END HEADER................................ */
 
 /* ...................................FOOTER.................................. */
@@ -99,18 +102,12 @@ body {
 .footer-map-address {
   color: var(--tertiary-text-color);
 }
-.footer-map-address:hover,
-.footer-map-address:focus {
-  color: var(--accent-color);
-}
+
 
 .footer-link {
   color: var(--footer-address-color);
 }
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
-}
+
 /* .................................END FOOTER................................ */
 
 /* ...............................INDEX.HTML............................... */
