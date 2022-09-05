@@ -331,7 +331,7 @@ body {
 }
 
 .portfolio-item {
-	/* border: 1px solid #EEEEEE; */
+	/* display: inline-block; */
 }
 
 .portfolio-link {
