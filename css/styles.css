@@ -55,7 +55,14 @@ body {
 	color: var(--accent-color);
 }
 
-
+.logo-link {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--accent-color);
+}
 
 /* .................................HEADER................................ */
 .header {
@@ -66,41 +73,61 @@ body {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	background-color: var(--primary-bg-color);
+	border-bottom: 1px solid #ECECEC;
+}
+
+.header-flex {
+	display: flex;
+	justify-content: space-between;
 }
 
 .header-nav {
+	display: flex;
+	align-items: center;
 }
 
-.logo-link {
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-	letter-spacing: 0.03em;
-	color: var(--accent-color);
-}
 .header .logo-link span{
 	color: var(--quaternary-text-color);
 }
+.header .logo-link {
+	margin-right: 93px;
+}
 
 .nav-list {
+	display: flex;
+	
 }
 
 .nav-item {
 }
+.nav-item:not(:last-child) {
+	margin-right: 50px;
+}
 
 .nav-link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	
 	color: var(--primary-text-color);
 }
 
-
 .header-list {
+	display: flex;
 }
 
 .header-item {
+
+}
+.header-item:not(:last-child) {
+	margin-right: 50px;
 }
 
 .header-link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
 	color: var(--secondary-text-color);
 }
 
