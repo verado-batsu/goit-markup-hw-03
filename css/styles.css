@@ -59,15 +59,13 @@ body {
 
 /* .................................HEADER................................ */
 .header {
+	/* padding-top: 24px;
+		padding-bottom: 25px; */
+
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	background-color: var(--primary-bg-color);
-
-	/*  */
-	padding-top: 24px;
-	padding-bottom: 25px;
-	/*  */
 }
 
 .header-nav {
@@ -110,9 +108,10 @@ body {
 
 /* ...................................FOOTER.................................. */
 .footer {
-	background-color: var(--secondary-bg-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
 
-	padding: 60px 0;
+	background-color: var(--secondary-bg-color);
 }
 
 .footer .logo-link {
@@ -149,7 +148,6 @@ body {
 .main-content {
 }
 
-
 /* Hero */
 .main-hero {
 	background-color: var(--secondary-bg-color);
@@ -160,27 +158,28 @@ body {
 }
 
 .hero-title {
+	padding-bottom: 30px;
+
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--tertiary-text-color);
-
-	padding-bottom: 30px;
 }
 
 .hero-btn {
+	padding: 10px 32px;
+
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.875;
 	letter-spacing: 0.06em;
 	color: var(--tertiary-text-color);
 	background-color: var(--accent-color);
+
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-
-	padding: 10px 32px;
 	text-align: center;
 }
 .hero-btn:hover,
@@ -190,9 +189,10 @@ body {
 
 /* Benefits */
 .main-benefits {
-	background-color: var(--primary-bg-color);
+	padding-top: 94px;
+	padding-bottom: 94px;
 
-	padding: 94px 0;
+	background-color: var(--primary-bg-color);
 }
 
 .benefits-list {
@@ -203,12 +203,12 @@ body {
 }
 
 .benefits-name {
+	margin-bottom: 10px;
+
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--primary-text-color);
-
-	margin-bottom: 10px;
 }
 
 .benefits-descrpt {
@@ -218,20 +218,20 @@ body {
 
 /* Example */
 .main-example {
-	background-color: var(--primary-bg-color);
-
 	padding-bottom: 94px;
+
+	background-color: var(--primary-bg-color);
 }
 
 .example-title {
+	margin-bottom: 50px;
+
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
-
-	margin-bottom: 50px;
 }
 
 .example-list {
@@ -245,38 +245,38 @@ body {
 
 /* Team */
 .main-team {
+	padding-top: 94px;
+	padding-bottom: 94px;
+
 	background-color: var(--tertiary-bg-color);
 	letter-spacing: 0.03em;
-
-	padding: 94px 0;
 }
 
 .team-title {
+	margin-bottom: 50px;
+
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
 	color: var(--primary-text-color);
-
-	margin-bottom: 50px;
 }
 
 .team-list {
 }
 
 .team-item {
+	padding-bottom: 30px;
+
 	font-size: 16px;
 	line-height: 1.1875;
 	background-color: var(--primary-bg-color);
+	text-align: center;
 
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-
 	/* border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px; */
 	border-radius: 0px 0px 4px 4px;
-
-	text-align: center;
-	padding-bottom: 30px;
 }
 
 .team-img {
@@ -284,10 +284,10 @@ body {
 }
 
 .team-name {
+	margin-bottom: 10px;
+
 	font-weight: 500;
 	color: var(--primary-text-color);
-
-	margin-bottom: 10px;
 }
 
 .team-position {
@@ -300,9 +300,10 @@ body {
 }
 
 .portfolio-section {
-	background-color: var(--primary-bg-color);
+	padding-top: 94px;
+	padding-bottom: 94px;
 
-	padding: 94px 0;
+	background-color: var(--primary-bg-color);
 }
 
 .portfolio-title {
@@ -316,6 +317,8 @@ body {
 }
 
 .filter-button {
+	padding: 6px 22px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.625;
@@ -324,8 +327,6 @@ body {
 	color: var(--primary-text-color);
 	background-color: var(--tertiary-bg-color);
 	border-radius: 4px;
-
-	padding: 6px 22px;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -350,11 +351,11 @@ body {
 }
 
 .border-basket{
+	padding: 20px 24px;
+
 	border-bottom: 1px solid var(--border-color);
 	border-right: 1px solid var(--border-color);
 	border-left: 1px solid var(--border-color);
-
-	padding: 20px 24px;
 }
 
 .portfolio-name {
