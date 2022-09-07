@@ -227,7 +227,7 @@ body {
 /* Benefits */
 .main-benefits {
 	padding-top: 94px;
-	padding-bottom: 94px;
+	padding-bottom: 47px;
 
 	background-color: var(--primary-bg-color);
 }
@@ -260,6 +260,7 @@ body {
 
 /* Example */
 .main-example {
+	padding-top: 47px;
 	padding-bottom: 94px;
 
 	background-color: var(--primary-bg-color);
