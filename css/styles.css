@@ -1,8 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+/* @import url(./nullstyle.css); */
 /* font-family: 'Raleway', sans-serif; */
-@import url(./nullstyle.css);
 
 :root {
 	--primary-text-color: #212121;
@@ -68,9 +66,6 @@ body {
 
 /* .................................HEADER................................ */
 .header {
-	/* padding-top: 24px;
-		padding-bottom: 25px; */
-
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
@@ -93,11 +88,12 @@ body {
 }
 .header .logo-link {
 	margin-right: 93px;
+	padding-top: 24px;
+	padding-bottom: 25px;
 }
 
 .nav-list {
 	display: flex;
-	
 }
 
 .nav-item {
@@ -195,7 +191,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	/*  */
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 
 	font-weight: 900;
 	font-size: 44px;
@@ -227,21 +223,21 @@ body {
 /* Benefits */
 .main-benefits {
 	padding-top: 94px;
-	padding-bottom: 47px;
+	padding-bottom: 94px;
 
 	background-color: var(--primary-bg-color);
 }
 
 .benefits-list {
 	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
 
 	letter-spacing: 0.03em;
 }
 
 .benefits-item {
-}
-.benefits-item:not(:last-child) {
-	margin-right: 30px;
+	flex-basis: calc((100% - 90px) / 4);
 }
 
 .benefits-name {
@@ -260,7 +256,6 @@ body {
 
 /* Example */
 .main-example {
-	padding-top: 47px;
 	padding-bottom: 94px;
 
 	background-color: var(--primary-bg-color);
